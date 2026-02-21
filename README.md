@@ -1,5 +1,4 @@
 # 🎙️ Voice Assistant Application (Alexa / Jarvis)
-![Stats](https://github-readme-stats.vercel.app/api?username=Piyush-Patel19&show_icons=true)
 ![Visitors](https://komarev.com/ghpvc/?username=Piyush-Patel19)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Status](https://img.shields.io/badge/Status-Active-success)
