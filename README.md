@@ -12,6 +12,8 @@ This voice assistant uses **speech recognition and AI** to create an interactive
 It listens for wake words and executes commands such as music playback, information retrieval, and general conversation.
 
 ---
+ 🛠 Tech Stack
+![Tech](https://skillicons.dev/icons?i=python,git,github,vscode)
 
 ## ✨ Features
 
