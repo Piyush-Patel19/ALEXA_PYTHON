@@ -1,0 +1,25 @@
+1. The Function: re.sub()
+The sub stands for substitute. It follows this logic:
+re.sub(pattern, replacement, original_text)
+
+Pattern: What to look for.
+
+Replacement: What to put in its place (in your case, "", which is an empty string/nothing).
+
+Original Text: The variable clean_command.
+
+2. The Pattern: r"(search|from|on|wikipedia|...)"
+r: Stands for "raw string." It tells Python to treat backslashes literally (standard practice for regex).
+
+(): A grouping container.
+
+|: This is the OR operator. It tells the code to look for "search" OR "from" OR "on," and so on.
+
+3. What it actually does
+If your clean_command was originally:
+
+"search wikipedia for Albert Einstein"
+
+The code looks for any of the words in your list and replaces them with nothing. The result stored back into clean_command would be:
+
+" for Albert Einstein"
